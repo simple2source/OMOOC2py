@@ -4,10 +4,12 @@
 
 ## 方法
 - **注册disqus,https://disqus.com/ ，通过disqus插件生成专用的名字**
+
 - **disqus注册后，点击右上add dis site，选择模版，自定义名字，名字要记住，这是作为专用名字写入到配置文件当中的**
 
 ## 配置
 - **1、在Github对应的gitbook库中，新建一个book.json,配置文件如下：
+
 - ** ```{
     "plugins": ["disqus"],
     "pluginsConfig": {
@@ -16,5 +18,8 @@
         }
     }  
 }```**
-官方参考链接：https://github.com/GitbookIO/plugin-disqus
+
+- 官方参考链接：https://github.com/GitbookIO/plugin-disqus
+
+- 在网页版gitbook中页面编辑book，右上方有add plugin的选项，尝试添加了一个disqus插件，实质上就是生成了一个Book.json的文件 
 
