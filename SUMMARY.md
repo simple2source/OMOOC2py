@@ -13,5 +13,5 @@
 * [有关](ABOUT.md)
 * [O__Begin](obegin.md)
    * [0.1 GIt与Gitbook关联](01_gityu_gitbook_guan_lian.md)
-   * 0.2 gitbook添加评论插件disqus
+   * [0.2 gitbook添加评论插件disqus](02_gitbooktian_jia_ping_lun_cha_jian_disqus.md)
 
