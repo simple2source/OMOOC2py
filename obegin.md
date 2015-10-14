@@ -1,4 +1,4 @@
-# O__Begin
+[](        https://github.com/ZoomQuiet/OMOOC2py         https://zoomquiet.gitbooks.io/omooc2py    )# O__Begin
 
 [0wd0]与gitbook有关的事
 
