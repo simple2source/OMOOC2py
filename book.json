@@ -11,3 +11,12 @@
     }
 }
 
+
+{
+"plugins": ["disqus"],
+"pluginsConfig": {
+    "disqus": {
+        "shortName": "omooc2py"
+    }
+}  
+}
