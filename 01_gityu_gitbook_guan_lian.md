@@ -9,6 +9,7 @@
 ##配置
 -  **1. 点击gitbook页面+新建book的时候注意，不要选择右边选项去导入账号**
 
+
 - **2. 右上头像选项accout setting中进入页面后，选择ADD github，实现账号关联**
 
 - **3.在accout setting中change passwd，此处前面由于用的github账号登陆，没有更新过密码，使用过程中一直无法验证，后面将这里的密码修改为github一样的密码，则可以正常连接，原因可能是用github登陆的时候，gitbook并没有密码**
