@@ -10,5 +10,5 @@
    * [教程该怎么写](draft/how2tutorial.md)
 * [有关](ABOUT.md)
 * [O__Begin](obegin.md)
-   * 0.1 GIt与Gitbook关联
+   * [0.1 GIt与Gitbook关联](01_gityu_gitbook_guan_lian.md)
 
