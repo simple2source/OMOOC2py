@@ -1,7 +1,7 @@
 # 0.3 Git基础使用
 
 ##1、目标
-- window、Linux上实现git推送github
+- window、Linux上实现本地仓库git推送github
 
 ##2、步骤
 - **window 上实现远程本地仓库同步**
