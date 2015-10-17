@@ -10,5 +10,21 @@
  + 如果用window git bash命令行，可以参考此处 [window下git仓库部署](http://blog.jobbole.com/78960/)，基本上和Linux中一样。
 
 - **Linux上实现远程本地仓库同步**
-  + 使用的是 Ubuntu 14.04.3 LTS \n \l
-  + 
+  + 使用的是 Ubuntu 14.04.3 LTS \n \l ,redhat使用相差无几
+  + 安装git 
+  ```sudo apt-get install git```
+  + 新建一个目录用来初始化仓库
+  ```mkdir code  
+     cd code 
+     git init```
+  + 配置全局变量，用来认证github账号信息,填写自己github账号和邮箱（网上许多教程缺少这一步骤）
+
+```git config --global user.email "expamle@126.com"
+   git config --global user.name "simple2source"```
+  + Linux上要实现密钥认证github才能推送
+   + 生成密钥，复制Github设置里面
+   + 具体步骤 [见此处](http://www.cnblogs.com/plinx/archive/2013/04/08/3009159.html)
+   + ssh git 测试
+  
+git remote add origin git@github.com:simple2source/xxx.git
+git add temp.txt
