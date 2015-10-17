@@ -19,8 +19,8 @@
      git init```
   + 配置全局变量，用来认证github账号信息,填写自己github账号和邮箱（网上许多教程缺少这一步骤）
 
-```git config --global user.email "expamle@126.com"
-   git config --global user.name "simple2source"```
+``` git config --global user.email "expamle@126.com"
+    git config --global user.name "simple2source" ```
   + Linux上要实现密钥认证github才能推送
    + 生成密钥，复制Github设置里面
    + 具体步骤 [见此处](http://www.cnblogs.com/plinx/archive/2013/04/08/3009159.html)
