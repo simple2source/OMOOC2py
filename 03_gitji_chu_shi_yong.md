@@ -14,12 +14,12 @@
   + 安装git 
   ```sudo apt-get install git```
   + 新建一个目录用来初始化仓库
-  ```mkdir code  
-     cd code 
+  ```mkdir code,  
+     cd code ,
      git init```
   + 配置全局变量，用来认证github账号信息,填写自己github账号和邮箱（网上许多教程缺少这一步骤）
 
-``` git config --global user.email "expamle@126.com"
+``` git config --global user.email "expamle@126.com",
     git config --global user.name "simple2source" ```
   + Linux上要实现密钥认证github才能推送
    + 生成密钥，复制Github设置里面
@@ -38,7 +38,7 @@ hint: not have locally. This is usually caused by another repository pushing
 hint: to the same ref. You may want to first integrate the remote changes
 hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.```
-  + 测试发现第一次是不能使用git push 应该使用git pull 来进行推送，这个pull，也代表从远程fetch到本地和提交到远程两种行为，据我理解可能是本地文件没有克隆远程仓库直接推送有安全限制，这里有完整讨论 [git push和pit pull两种行为](http://segmentfault.com/a/1190000002783245)
+  + 测试发现第一次是不能使用git push origin master 应该使用git pull origin master 来进行推送，这个pull，也代表从远程fetch到本地和提交到远程两种行为，据我理解可能是本地文件没有克隆远程仓库直接推送有安全限制，这里有完整讨论 [git push和pit pull两种行为](http://segmentfault.com/a/1190000002783245)
   + 这里收集部分 [git 报错](http://my.oschina.net/psuyun/blog/123005) ，使用过程还有许多报错，但是用Google基本轻松都解决了，也就不记录
 
 ## 3、Git使用资料收集
