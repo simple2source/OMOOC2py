@@ -44,5 +44,5 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.```
 ## 3、Git使用资料收集
  + [廖雪峰git教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
  + Git权威指南
- + 
+ + [在Github和Git上fork之简单指南 ](http://www.open-open.com/news/view/18ef03)
   
