@@ -24,7 +24,21 @@
   + Linux上要实现密钥认证github才能推送
    + 生成密钥，复制Github设置里面
    + 具体步骤 [见此处](http://www.cnblogs.com/plinx/archive/2013/04/08/3009159.html)
-   + ssh git 测试
+   + ssh git 测试能否连接上Github
+
+- 在本地添加一个Origin的命名为远程github上存在的仓库
+``` git remote add origin git@github.com:simple2source/xxx.git ```
+    + touch a.txt 测试 git add a.txt ,git commit -m "version1.0"
+    + git push origin master 报错：
+    ```To https://github.com/simple2source/OMOOC2py.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/simple2source/OMOOC2py.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.```
+  + 测试发现第一次是不能使用git push 应该使用git pull 来进行推送，这个pull，也代表从远程克隆到本地
   
 git remote add origin git@github.com:simple2source/xxx.git
 git add temp.txt
