@@ -40,5 +40,9 @@ hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.```
   + 测试发现第一次是不能使用git push 应该使用git pull 来进行推送，这个pull，也代表从远程fetch到本地和提交到远程两种行为，据我理解可能是本地文件没有克隆远程仓库直接推送有安全限制，这里有完整讨论 [git push和pit pull两种行为](http://segmentfault.com/a/1190000002783245)
   + 这里收集部分 [git 报错](http://my.oschina.net/psuyun/blog/123005) ，使用过程还有许多报错，但是用Google基本轻松都解决了，也就不记录
-  + 
+
+## 3、Git基本使用资料收集
+ + [廖雪峰git教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
+ + Git权威指南
+ + 
   
