@@ -1,4 +1,4 @@
-#/usr/bin/python
+#!/usr/bin/python
 #coding=utf-8
 import sys,os
 from sys import argv
@@ -15,4 +15,3 @@ else:
             #text = raw_input('pls input something >>:')
             f = open(filename,'a+')
             f.write(text+'\n')
-            f.close()
