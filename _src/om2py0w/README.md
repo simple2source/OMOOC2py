@@ -12,12 +12,12 @@
  + 当交互界面输入exit的时候退出，并将输入的内容保存到新建的文件当中，输入的文件要换行的方式显示（此处用+\n来输入的文本换行）
  
 - **代码**
-```#/usr/bin/python
-#coding=utf-8
+```
 import sys,os
 from sys import argv
-if os.path.exists('789.txt'):
-    f = open('789.txt','r')
+script,filename = argv
+if os.path.exists(filename):
+    f = open(filename,'r')
     print f.read()
 else:
     while True:
@@ -26,9 +26,9 @@ else:
             break
         else:
             #text = raw_input('pls input something >>:')
-            f = open('789.txt','a+')
+            f = open(filename,'a+')
             f.write(text+'\n')
-            f.close()```
+            f.close() ```
 
 - **反思**
    + 没有实现代码传递参数来调用选择功能
