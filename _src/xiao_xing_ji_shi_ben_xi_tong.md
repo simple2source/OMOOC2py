@@ -29,5 +29,10 @@ else:
         else:
             #text = raw_input('pls input something >>:')
             f = open(filename,'a+')
-            f.write(text+'\n')
-            ```
+            f.write(text+'\n')```
+        
+#### 四、反思
++ 没有实现代码交互传递参数来选择对应的操作，比如输入-c创建自己定义的文件，输入-h对此记事本系统的使用
+
+#### 五、重构
++ 工作未空闲，待续……
