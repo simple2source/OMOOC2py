@@ -45,15 +45,15 @@ import sys,os
 from sys import argv
 script,filename = argv
 m = 0
-if os.path.exists(filename):
+if os.path.exists(filename):     #判断日记文件是否存在
     f = open(filename,'r')
     #m = m+1
     #print m,f.readline()
-    for i in f.readlines():
+    for i in f.readlines():      #对文本读出来的，每一行进行循环
         m=m+1
         print m,'.',i
     print 'day now','\n'
-    while True:
+    while True:                  #打印出日记内容之后，继续追加输入的循环
         text = raw_input('pls input somethig :>')
         if text == 'exit':
             break
@@ -68,4 +68,4 @@ else:
         else:
             #text = raw_input('pls input something >>:')
             f = open(filename,'a+')
-            f.write(text+'\n')'''
+            f.write(text+'\n') '''
