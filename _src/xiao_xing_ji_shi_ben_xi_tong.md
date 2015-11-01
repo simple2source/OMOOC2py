@@ -35,4 +35,36 @@ else:
 + 没有实现代码交互传递参数来选择对应的操作，比如输入-c创建自己定义的文件，输入-h对此记事本系统的使用帮助等等
 
 #### 五、重构
-+ 工作未空闲，待续……
++ 小幅度修改，增加打印出文本行数，并且查看的时候可以继续输入追加文本内容
+'''
+#!/usr/bin/env python
+#coding-utf-8
+import sys,os
+from sys import argv
+script,filename = argv
+m = 0
+if os.path.exists(filename):
+    f = open(filename,'r')
+    #m = m+1
+    #print m,f.readline()
+    for i in f.readlines():
+        m=m+1
+        print m,'.',i
+    print 'day now','\n'
+    while True:
+        text = raw_input('pls input somethig :>')
+        if text == 'exit':
+            break
+        else:
+            f = open(filename,'a+')
+            f.write(text+'\n')
+else:
+    while True:
+        text = raw_input('pls input somehing :>')
+        if text == 'exit':
+            break
+        else:
+            #text = raw_input('pls input something >>:')
+            f = open(filename,'a+')
+            f.write(text+'\n')
+'''
