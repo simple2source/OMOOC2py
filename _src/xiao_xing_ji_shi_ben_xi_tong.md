@@ -14,6 +14,7 @@
 + 当交互界面输入exit的时候退出，并将输入的内容保存到新建的文件当中，输入的文件要换行的方式显示（此处用+\n来输入的文本换行）
 
 #### 三、代码
+
 ```
 import sys,os
 from sys import argv
@@ -36,6 +37,7 @@ else:
 
 #### 五、重构
 + 小幅度修改，增加打印出文本行数，并且查看的时候可以继续输入追加文本内容
+
 '''
 #!/usr/bin/env python
 #coding-utf-8
@@ -66,5 +68,4 @@ else:
         else:
             #text = raw_input('pls input something >>:')
             f = open(filename,'a+')
-            f.write(text+'\n')
-'''
+            f.write(text+'\n')'''
