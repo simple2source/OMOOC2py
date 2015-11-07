@@ -68,4 +68,6 @@ else:
         else:
             #text = raw_input('pls input something >>:')
             f = open(filename,'a+')
-            f.write(text+'\n') '''
+            f.write(text+'\n') 
+            
+'''
