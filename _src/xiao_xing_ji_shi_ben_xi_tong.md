@@ -39,8 +39,8 @@ else:
 + 小幅度修改，增加打印出文本行数，并且查看的时候可以继续输入追加文本内容
 
 '''
-#!/usr/bin/env python
-#coding-utf-8
+!/usr/bin/env python
+coding-utf-8
 import sys,os
 from sys import argv
 script,filename = argv
@@ -53,7 +53,7 @@ if os.path.exists(filename):     #判断日记文件是否存在
         m=m+1
         print m,'.',i
     print 'day now','\n'
-    while True:                  #打印出日记内容之后，继续追加输入的循环
+    while True:         #打印出日记内容之后，继续追加输入的循环
         text = raw_input('pls input somethig :>')
         if text == 'exit':
             break
@@ -69,5 +69,4 @@ else:
             #text = raw_input('pls input something >>:')
             f = open(filename,'a+')
             f.write(text+'\n') 
-            
 '''
