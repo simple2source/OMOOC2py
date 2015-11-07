@@ -60,6 +60,9 @@ if os.path.exists(filename):     #判断日记文件是否存在
         else:
             f = open(filename,'a+')
             f.write(text+'\n')
+'''
+
+'''
 else:
     while True:
         text = raw_input('pls input somehing :>')
