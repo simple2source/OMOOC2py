@@ -38,7 +38,9 @@ else:
 #### 五、重构
 + 小幅度修改，增加打印出文本行数，并且查看的时候可以继续输入追加文本内容
 
+
 '''
+
 !/usr/bin/env python
 coding-utf-8
 import sys,os
@@ -60,9 +62,6 @@ if os.path.exists(filename):     #判断日记文件是否存在
         else:
             f = open(filename,'a+')
             f.write(text+'\n')
-'''
-
-'''
 else:
     while True:
         text = raw_input('pls input somehing :>')
@@ -72,4 +71,5 @@ else:
             #text = raw_input('pls input something >>:')
             f = open(filename,'a+')
             f.write(text+'\n') 
+            
 '''
